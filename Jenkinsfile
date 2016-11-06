@@ -2,6 +2,6 @@
 
 stage 'exec docker build'
 node {
-        sh 'docker build -t helloWorld:latest .'
-        sh 'docker run --rm helloWorld'
+        sh 'docker build -t helloworld .'
+        sh 'docker run --rm helloworld'
     }
